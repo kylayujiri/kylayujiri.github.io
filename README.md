@@ -2,4 +2,4 @@
 
 This GitHub Pages site hosts my portfolio.
 
-View it here: [kylayujiri.github.io](kylayujiri.github.io)
+View it here: [kylayujiri.github.io](http://kylayujiri.github.io)
