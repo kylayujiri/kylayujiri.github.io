@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Montserrat:wght@900&display=swap');
 
 @media (min-width: 768px) {
   .navbar-nav.navbar-center, .navbar-header-center {
@@ -7,12 +7,53 @@
   }
 }
 
+body {
+  font-family: 'Cardo', serif;
+}
+
 nav {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .navbar-brand {
   font-size: 36px;
   letter-spacing: 15px;
+}
+
+.nav-link {
+  /* I wonder why background-size does not work with a solid color */
+  background: linear-gradient(currentColor, currentColor) bottom / 0 3px no-repeat;
+  transition: .4s background-size ease;
+}
+
+.nav-link:hover {
+  background-size: 100% 3px;
+}
+
+.nav > .active {
+  background: linear-gradient(currentColor, currentColor) bottom / 100% 3px no-repeat;
+}
+
+.img-fluid {
+  max-width: 700px;
+  width: 100%;
+}
+
+.figure {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.figure-caption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
+#about-content {
+  max-width: 700px;
+  width:100
 }
