@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Montserrat:wght@700;900&display=swap');
 
 @media (min-width: 768px) {
   .navbar-nav.navbar-center, .navbar-header-center {
@@ -13,8 +13,16 @@ body {
 
 nav {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .navbar-brand {
@@ -55,5 +63,15 @@ nav {
 
 #about-content {
   max-width: 700px;
-  width:100
+  width: 100%;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.stretched-link {
+  display:hidden;
 }
