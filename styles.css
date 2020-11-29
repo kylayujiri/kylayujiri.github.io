@@ -7,6 +7,16 @@
   }
 }
 
+/* COLORS:
+
+red - #BD391C
+yellow - #F4AA1A
+green - 81C880
+blue - #7E8ACB
+purple - #8D5D7D
+
+*/
+
 body {
   font-family: 'Cardo', serif;
 }
@@ -66,12 +76,42 @@ h3 {
   width: 100%;
 }
 
-.card-title {
+.card-title, .btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 .stretched-link {
-  display:hidden;
+  display: hidden;
+}
+
+.btn-purple {
+  color: #8D5D7D;
+  border-color: #8D5D7D;
+}
+
+.btn-purple:hover {
+  color: white;
+  background-color: #8D5D7D;
+}
+
+.btn-green {
+  color: #81C880;
+  border-color: #81C880;
+}
+
+.btn-green:hover {
+  color: white;
+  background-color: #81C880;
+}
+
+.btn-blue {
+  color: #7E8ACB;
+  border-color: #7E8ACB;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: #7E8ACB;
 }
