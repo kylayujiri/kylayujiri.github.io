@@ -86,6 +86,11 @@ h3, .h5 {
   display: hidden;
 }
 
+.btn-overlay {
+  background-color: white;
+  border-color: white !important;
+}
+
 .btn-purple {
   color: #8D5D7D;
   border-color: #8D5D7D;
@@ -94,6 +99,7 @@ h3, .h5 {
 .btn-purple:hover {
   color: white;
   background-color: #8D5D7D;
+  border-color: #8D5D7D !important;
 }
 
 .btn-green {
@@ -104,6 +110,7 @@ h3, .h5 {
 .btn-green:hover {
   color: white;
   background-color: #81C880;
+  border-color: #81C880 !important;
 }
 
 .btn-blue {
@@ -114,4 +121,5 @@ h3, .h5 {
 .btn-blue:hover {
   color: white;
   background-color: #7E8ACB;
+  border-color: #7E8ACB !important;
 }
