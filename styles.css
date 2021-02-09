@@ -21,6 +21,11 @@ body {
   font-family: 'Cardo', serif;
 }
 
+.index {
+  position: relative;
+  overflow-x: hidden;
+}
+
 nav {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -28,7 +33,11 @@ nav {
   text-transform: uppercase;
 }
 
-h3, .h5 {
+.navbar {
+  background-color:rgba(0, 0, 0, 0);
+}
+
+h3, .h5, h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
