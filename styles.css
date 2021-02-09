@@ -7,6 +7,20 @@
   }
 }
 
+@media (max-width: 500px) {
+  .navbar-brand {
+    font-size: 24px !important;
+    letter-spacing: 10px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .navbar-brand {
+    font-size: 20px !important;
+    letter-spacing: 6px !important;
+  }
+}
+
 /* COLORS:
 
 red - #BD391C
@@ -45,8 +59,8 @@ h3, .h5, h1 {
 }
 
 .navbar-brand {
-  font-size: 36px;
   letter-spacing: 15px;
+  font-size: 36px;
 }
 
 .nav-link {
